@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>yo aprendo html5</title>
+        <style type="text/css">
+        p {width: 400px;
+           height: 100px;
+           border: 15px solid #ffffff;}
+        p.one { -moz-border-image: url("images/dots.gif") 11 11 11 11 stretch;
+                -webkit-border-image: url("images/dots.gif") 11 11 11 11 stretch;
+                border-image: url("images/dots.gif") 11 11 11 11 stretch;}
+        p.two { -moz-border-image: url("imeges/dots.gif") 11 11 11 11 round;
+                -webkit-border-image: url("images/dots.gif") 11 11 11 11 round;
+                border-image: url("images/dots.gif") 11 11 11 11 round;}
+        </style>
+    </head>
+    <body>
+        <p class="one">la propiedad border-image aplica una imagen al borde de cualquier cuadro.
+            en este ejemplo tomo una imagen de fondo y la corta en nueve piezas.</p>
+        <p class="two">esta propiedad requiere tres elementos de formacion:
+            1: la url de la imagen 2:donde contar la imagen 3:que hacer con los bordes rectos </p>
+        <p>las propiedades -moz-border-imagen y -webkit-border-image no estan en la especificacion 
+            css, pero ayuda a las versiones anteriores de chome, firefox y safari a mostrar este 
+            efecto.</p>
+    </body>
+</html>
