@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>yo aprendo html5</title>
+        <meta codif="UFT-8">
+        <style type="text/css">
+            body {width: 750px; font-family: arial, verdana, sans-serif; color: #665544;}
+            p {width: 230px; float: left; margin: 5px; padding: 5px; background-color: #efefef;}
+            p.example {position: relative; top: 40px; left: 100px;}
+            span {font-weight: bold;}
+        </style>
+    </head>
+    <body>
+        <h1>usar float para colocar elementos en paralelo</h1>
+        <h2>tipos de bicicletas:</h2>
+        <p><span>la bicicleta domestica </span>son dedicadas a todo tipo de usos cotidianos 
+           especialmente trallectos cortos.</p>
+        <p><span>la bicicleta de montaña. </span>es una bicicleta diseñada para el ambito 
+           deportivos en terrenos agrestes, por lo que la resistencia de sus partes es su principal 
+        caracteristica.</p>
+        <p><span>la bicicleta de carreras: </span> esta diseñada y contruida para la velocidad.</p>
+        <p><span>la bicicleta de turismo: </span> es utilizada para recorrer distancias largas y 
+        cargas pesadas esta diseñada para la comodidad.</p>
+        <p><span>la bicicleta plegable:</span> es una bicicleta que e puede hacer mas pequeña 
+        boblandola en dos o mas partes.</p>
+        <p><span>la bicicleta hidrica:</span> su estructura o cuadro combina caracteristicas de la 
+        bicicleta de carretera y montaña.</p>
+        <p class="example">1. gran cantidad de diseños colocan cajasal lado y lado. la 
+            propiedad float se usa habitualmente para lograr esto. cuando los elementos flotan, 
+            la altura dela caja puede afectar a donde se ubica los siguientes elementos
+        </p>
+        <p class="example">2. en este ejemplo, se puede ver seis parrafos de bicicletas, cada uno 
+            de los cualestiene un width y un float conjunto de propiedades. el cuadro parrafo no 
+            va atravez del borde izquierdo de la pagina como cabria esperar. mas bien se encuentra.
+            justo en el tercer parrafo.
+        </p>
+        <p class="example">3. la razon de esto es que el cuadro parrafo tiene espacio para comenzar 
+            bajo el tercer parrafo, pero no puede ir mas lejos a la izquierda porque l segundo 
+            parrafo esta en el camino. establece la altura de los parrafos para que sea l misma 
+            altura que el parrafo mas alto resolvera este problema, pero rara vez secadapta a 
+            diseños del mundo real donde la cantidad de texto en un parrafo i columna puede variar.
+        </p>
+    </body>
+</html>
